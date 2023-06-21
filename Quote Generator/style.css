@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    text-align: center;
+    background: url(Images/lib1.jpg) no-repeat center center/ cover;
+}
+.container{
+    width: 550px;
+    height:450px;
+}
+.header{
+    font: size 1.2em;
+    border: solid 2px white;
+    color:#fff;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content{
+    width:100%;
+    height: 250px;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+
+}
+.text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.person{
+    font-size:x-large;
+    color: red;
+    text-transform:uppercase;
+    
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.button-area button:active{
+    background-color: white;
+    color:#262626;
+}
